@@ -1,0 +1,102 @@
+body, html{
+  height:100%;
+}
+body{
+  margin: 0px;
+  /* background-color:#444; */
+  /* background-color:#444; */
+  background-image: url("assets/bbb.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 18px;
+}
+body, a:link, a:visited, a:active{
+  color: lightblue;
+  color: #000000;
+}
+.title{
+  padding:5px 12px;
+  /* float:right; */
+}
+
+
+.topbar{
+  height:55px;
+  background-color: #555;
+  background-color: #3285d1;
+}
+
+.addDancerButton {
+  display: inline-block;
+  padding: 15px 10px 0px 10px;
+  height: 40px;
+  text-decoration: none;
+}
+
+.title{
+  /* background-color: #777; */
+  color: #ffffff;
+  font-weight: bold;
+}
+.dancer{
+  border:10px solid red;
+  border-radius:10px;
+  position:absolute;
+}
+
+.boy{
+  height: 100px;
+  width: 100px;
+  background-image: url("assets/sponge2.gif");
+  /* ssbackground-repeat: no-repeat; */
+  background-size: cover;
+  background-position:  center center;
+  border: 0px;
+}
+
+.girl{
+  height: 100px;
+  width: 100px;
+  background-image: url("assets/patrick2.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center center;
+  border: 0px;
+}
+
+.patty{
+  height: 60px;
+  width: 60px;
+  background-image: url("assets/krabbypatty.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  center center;
+  border: 0px;
+}
+
+#addSecondButton {
+  border-left: 1px solid #ffffff;
+  background-color: pink;
+}
+
+#addDancerButton {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: yellow;
+}
+
+#addPattyButton, #lineUp {
+  border-left: 1px solid #ffffff;
+  background-color: #a4a2e1;
+}
+
+#interact {
+  border-left: 1px solid #ffffff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #a4a2e1;
+}
+
+.addDancerButton:hover {
+  opacity: 0.70;
+}
